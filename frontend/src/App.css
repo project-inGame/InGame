@@ -1,4 +1,49 @@
 .body {
   background-color: white;
+
+}
+.navcss {
+  background-color: teal;
+  display: flex;
+  flex-direction: row;
+  
+  padding: 20px;
+}
+
+.inputBox {
+  border: 1px solid black;
+  height: 20px;
+  width: 200px;
+  margin-left: 100px;
+  margin-top: 10px;
+
+}
+.genreLink {
+padding: 10px;
+margin-top: 10px;
+margin-left: 70%;
+}
+.topGLink {
+  padding: 10px;
+  margin-top: 10px;
+}
+.newR{
+  padding: 10px;
+  margin-top: 10px;
+}
+a:link {
   color: black;
+  background-color: transparent;
+  text-decoration: none;
+  font-weight: bold;
+}
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: blue;
+  background-color: transparent;
+  text-decoration: underline;
 }
