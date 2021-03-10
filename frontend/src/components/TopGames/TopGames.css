@@ -17,9 +17,9 @@
 
 #releaseYear {
     font-size: 13px;
-    color:black;
-    font-style: italic;
-    padding: 0;
+    color:grey;
+    text-align: center;
+    padding-bottom: 0;
     margin: 0;
 }
 
