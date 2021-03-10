@@ -1,44 +1,89 @@
 .topGamesContainer {
-    width: 300px;
-    border: 1px solid rgba(202, 193, 193, 0.42);
-    border-radius: 5%;
+    width: 250px;
+    border: 1px solid grey;
+    text-align: center;
+    background-color: rgb(2, 2, 2);
+}
 
+#tgTitle {
+    font-size: 20px;
+    color: honeydew;
 }
 
 #topGamesTitle {
     font-size: 15px;
+    color: black;
 }
 
 #releaseYear {
-    font-size: 10px;
-    color: grey;
+    font-size: 13px;
+    color:black;
+    font-style: italic;
+    padding: 0;
+    margin: 0;
 }
 
 #tgimg {
-    height: 100px;
-    width: 120px;
+    height: 110px;
+    width: 100px;
+    border: black solid 2px;
+    border-radius: 10%;
+    background-color: grey;
+    margin-top: 2%;
+}
+
+#topGameRating {
+    color: white;
+    font-weight: bold;
+    padding: 10%;
+    background-color: rgb(88, 161, 39);
+    border-radius: 5%;
+    border: teal solid 2px;
+    font-size: 15px;
+}
+
+#tgLinks {
+    color: blue;
+    font-size: 10px;
+}
+
+#topGameBlurb {
+    color: black;
+    font-size: 15px;
+}
+
+.tgimgRating {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .topGameOne {
-    border: black solid 1px;
+    border: grey solid 1px;
     border-radius: 5%;
+    background-color: white;
 }
 
 .topGameTwo {
-    border: black solid 1px;
+    border: grey solid 1px;
     border-radius: 5%;
+    background-color: white;
 }
 
 .topGameThree {
-    border: black solid 1px;
+    border: grey solid 1px;
     border-radius: 5%;
+    background-color: white;
 }
 
 .topGameFour {
-    border: black solid 1px;
+    border: grey solid 1px;
     border-radius: 5%;
+    background-color: white;
 }
 
 .topGameText {
     display: flex;
+    flex-direction: column;
+    text-align: center;
 }
