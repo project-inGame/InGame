@@ -1,20 +1,20 @@
 .body {
   background-color: white;
-
 }
 .navcss {
   background-color: teal;
   display: flex;
   flex-direction: row;
   padding: 20px;
-  margin-left: 20px;
+  margin-top: 0px;
+ 
 }
 .linkList{ 
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-end;
-  margin-left: 350px;
+  margin-left: 65%;
   
 }
 
@@ -24,19 +24,23 @@ li {
   padding-left: 20px;
   padding-right: 20px;
 }
-.inputBox {
-  border: 2px solid black;
-  height: 20px;
-  width: 200px;
-  margin-left: 50px;
-  margin-right: 100px;
+.inputBox { 
+  border: 3px solid black;
+  font-weight: bold;
+  background-color: teal;
+  height: 30px;
+  width: 300px;
+  margin-left: 20px;
+  margin-right: 50px;
   margin-top: 10px;
-
+}
+::placeholder{
+  color: aliceblue;
+  font-size: medium;
 }
 ul {
   list-style-type: none;
 }
-
 a:link {
   color: black;
   background-color: transparent;
