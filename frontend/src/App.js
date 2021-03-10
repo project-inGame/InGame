@@ -5,6 +5,8 @@ import "./index.css";
 function App() {
   return (
     <div className="App">
+
+      <div className="JUSTTESTINGCOLORS">
       {/* delete this lateeeer */}
       <p> Just some test to see CSS, delete later</p>
 
@@ -27,7 +29,7 @@ function App() {
       <h3 className="lightPink">And there's some more</h3>
       <h3 className="lightOrange">And one more</h3>
       <h3 className="lightPurple">That's last one :)</h3>
-
+      </div>
 
     </div>
   );
