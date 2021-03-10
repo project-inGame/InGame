@@ -1,0 +1,13 @@
+body {
+    background:#2c2828;
+    color: #fff;
+}
+.gameWrapper {
+    background: #463f3f;
+    width: 600px;
+    border-radius: 20px;
+}
+
+.gameDescription {
+    border: solid 3px blue;
+}
