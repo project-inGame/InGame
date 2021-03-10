@@ -1,18 +1,19 @@
 import React from "react";
-import SearchBar from "./searchBar";
-import Genre from "./genre";
-import TopGames from "./topgames";
-import Newreleases from "./newreleases";
-
 
 const Navbar = () => {
   return (
-    <div className="navcss">
-      
-      <Genre />
-      <TopGames />
-      <Newreleases />
-      <SearchBar />
+    <div>
+      <ul className="navcss">
+        <input className="inputBox"type="text" placeholder="Search..."></input>
+        
+        <div className="linkList">
+        <li><a href="/genre">Genre</a></li>
+        <li><a href="/topgames">Top Games</a></li>
+        <li><a href="/newreleases">New Releases</a></li>
+        <li><a href="/about">About</a></li>
+        </div>
+      </ul>
+  
     </div>
   );
 };
