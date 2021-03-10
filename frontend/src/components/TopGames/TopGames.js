@@ -8,6 +8,7 @@ const TopGames = () => {
             <TopGameOne />
             <TopGameTwo />
             <TopGameThree />
+            <TopGameFour />
         </div>
     )
 }
@@ -15,7 +16,13 @@ const TopGames = () => {
 const TopGameOne = () => {
     return (
         <div className="topGameOne">
-            <img id="tgimg1" src="../images/tgimg1.png" alt="rdr2"/>
+                <div className="topGameText">
+                    <h1 id="topGamesTitle">1. Red Dead Redemption</h1>
+                    <h2 id="releaseYear">Released 2018</h2>
+                    <p id="topGameBlurb">lorem ipsum</p>
+                    <button id="topGameRating">79</button>
+                </div>
+            <img id="tgimg" src="../images/tgimg1.png" alt="rdr2"/>
         </div>
     )
 }
@@ -23,7 +30,13 @@ const TopGameOne = () => {
 const TopGameTwo = () => {
     return (
         <div className="topGameTwo">
-            <img id="tgimg2" src="../images/tgimg2.png" alt="halo"/>
+                <div className="topGameText">
+                    <h1 id="topGamesTitle">2. Halo</h1>
+                    <h2 id="releaseYear">Released 2001</h2>
+                    <p id="topGameBlurb">lorem ipsum</p>
+                    <button id="topGameRating">79</button>
+                </div>
+            <img id="tgimg" src="../images/tgimg2.png" alt="halo"/>
         </div>
     )
 }
@@ -31,7 +44,27 @@ const TopGameTwo = () => {
 const TopGameThree = () => {
     return (
         <div className="topGameThree">
-            <img id="tgimg3" src="../images/tgimg3.png" alt="skyrim"/>
+                <div className="topGameText">
+                    <h1 id="topGamesTitle">3. Skyrim</h1>
+                    <h2 id="releaseYear">Released 2011</h2>
+                    <p id="topGameBlurb">lorem ipsum</p>
+                    <button id="topGameRating">79</button>
+                </div>
+            <img id="tgimg" src="../images/tgimg3.png" alt="skyrim"/>
+        </div>
+    )
+}
+
+const TopGameFour = () => {
+    return (
+        <div className="topGameFour">
+                <div className="topGameText">
+                    <h1 id="topGamesTitle">4. Portal </h1>
+                    <h2 id="releaseYear">Released 2007</h2>
+                    <p id="topGameBlurb">lorem ipsum</p>
+                    <button id="topGameRating">79</button>
+                </div>
+            <img id="tgimg" src="../images/tgimg4.png" alt="portal"/>
         </div>
     )
 }
