@@ -1,10 +1,18 @@
+
 import testImg from "./65.jpg";
 import "./App.css";
 import "./index.css";
+import React, { Component } from "react";
+import './App.css';
+import EditorPicks from "./components/editor-picks/EditorPicks"
+import TopGames from './components/TopGames/TopGames';
+import Navbar from './components/navbar/navbar.js';
+
 
 function App() {
   return (
     <div className="App">
+
 
       <div className="JUSTTESTINGCOLORS">
       {/* delete this lateeeer */}
@@ -30,6 +38,11 @@ function App() {
       <h3 className="lightOrange">And one more</h3>
       <h3 className="lightPurple">That's last one :)</h3>
       </div>
+
+
+      <Navbar />
+      <EditorPicks />
+      <TopGames />
 
     </div>
   );
