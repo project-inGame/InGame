@@ -1,0 +1,44 @@
+.topGamesContainer {
+    width: 300px;
+    border: 1px solid rgba(202, 193, 193, 0.42);
+    border-radius: 5%;
+
+}
+
+#topGamesTitle {
+    font-size: 15px;
+}
+
+#releaseYear {
+    font-size: 10px;
+    color: grey;
+}
+
+#tgimg {
+    height: 100px;
+    width: 120px;
+}
+
+.topGameOne {
+    border: black solid 1px;
+    border-radius: 5%;
+}
+
+.topGameTwo {
+    border: black solid 1px;
+    border-radius: 5%;
+}
+
+.topGameThree {
+    border: black solid 1px;
+    border-radius: 5%;
+}
+
+.topGameFour {
+    border: black solid 1px;
+    border-radius: 5%;
+}
+
+.topGameText {
+    display: flex;
+}
