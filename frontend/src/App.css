@@ -1,4 +1,55 @@
 .body {
   background-color: white;
+
+}
+.navcss {
+  background-color: teal;
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  margin-left: 20px;
+}
+.linkList{ 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-left: 350px;
+  
+}
+
+li {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.inputBox {
+  border: 2px solid black;
+  height: 20px;
+  width: 200px;
+  margin-left: 50px;
+  margin-right: 100px;
+  margin-top: 10px;
+
+}
+ul {
+  list-style-type: none;
+}
+
+a:link {
   color: black;
+  background-color: transparent;
+  text-decoration: none;
+  font-weight: bold;
+}
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
 }
