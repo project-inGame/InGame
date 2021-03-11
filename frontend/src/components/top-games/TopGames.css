@@ -51,7 +51,7 @@
     background-color: rgb(88, 161, 39);
     border-radius: 5%;
     border: teal solid 2px;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 #tgLinks {
@@ -67,7 +67,7 @@
 
 #topGameBlurb {
     color: white;
-    font-size: 15px;
+    font-size: 16px;
     padding: 2%;
 }
 
@@ -82,7 +82,7 @@
     border-radius: 5%;
     background-color: #22252e;
     padding-bottom: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
     width: 300px;
 }
 
@@ -91,7 +91,7 @@
     border-radius: 5%;
     background-color: #22252e;
     padding-bottom: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
     width: 300px;
 }
 
@@ -100,11 +100,20 @@
     border-radius: 5%;
     background-color: #22252e;
     padding-bottom: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
     width: 300px;
 }
 
 .topGameFour {
+    border: grey solid 1px;
+    border-radius: 5%;
+    background-color: #22252e;
+    padding-bottom: 5%;
+    margin-bottom: 10%;
+    width: 300px;
+}
+
+.topGameFive {
     border: grey solid 1px;
     border-radius: 5%;
     background-color: #22252e;
