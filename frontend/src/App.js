@@ -8,6 +8,7 @@ import EditorPicks from "./components/editor-picks/EditorPicks"
 import TopGames from './components/TopGames/TopGames';
 import Navbar from './components/navbar/navbar.js';
 import Advert from './components/Adverts/Adverts.js';
+import Platforms from './components/platforms/Platforms.js';
 
 function App() {
   return (
@@ -44,6 +45,7 @@ function App() {
       <EditorPicks />
       <TopGames />
       <Advert />
+      <Platforms />
 
     </div>
   );
