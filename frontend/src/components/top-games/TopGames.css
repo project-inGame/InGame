@@ -1,0 +1,129 @@
+
+.topGamesContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 330px;
+    border: 1px solid grey;
+    text-align: center;
+    background-color:  #181a20; 
+    margin: 1.5em; /*change to 1 or 0.75 if already ina small container*/
+    padding: 0.25em 0;
+    border-radius: 1em;
+    padding-bottom: 0;
+}
+
+#tgTitle {
+    font-size: 20px;
+    color: white;
+}
+
+#topGamesTitle {
+    color: #246bfe;
+    font-size: 21px;
+    font-weight: 800;
+}
+
+#releaseYear {
+    color:grey;
+    text-align: center;
+    padding-bottom: 0;
+    margin: 0;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+#tgimg {
+    height: 130px;
+    width: 140px;
+    border: black solid 2px;
+    border-radius: 10%;
+    background-color: grey;
+    margin-top: 2%;
+    margin: 1em;
+    border-radius: 1em;
+}
+
+#topGameRating {
+    color: white;
+    font-weight: bold;
+    padding: 10%;
+    background-color: rgb(88, 161, 39);
+    border-radius: 5%;
+    border: teal solid 2px;
+    font-size: 20px;
+}
+
+#tgLinks {
+    color: #246bfe;
+    font-size: 15px;
+}
+
+#tgLinks:hover {
+    color: #215ace;
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+#topGameBlurb {
+    color: white;
+    font-size: 16px;
+    padding: 2%;
+}
+
+.tgimgRating {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.topGameOne {
+    border: grey solid 1px;
+    border-radius: 5%;
+    background-color: #22252e;
+    padding-bottom: 5%;
+    margin-bottom: 10%;
+    width: 300px;
+}
+
+.topGameTwo {
+    border: grey solid 1px;
+    border-radius: 5%;
+    background-color: #22252e;
+    padding-bottom: 5%;
+    margin-bottom: 10%;
+    width: 300px;
+}
+
+.topGameThree {
+    border: grey solid 1px;
+    border-radius: 5%;
+    background-color: #22252e;
+    padding-bottom: 5%;
+    margin-bottom: 10%;
+    width: 300px;
+}
+
+.topGameFour {
+    border: grey solid 1px;
+    border-radius: 5%;
+    background-color: #22252e;
+    padding-bottom: 5%;
+    margin-bottom: 10%;
+    width: 300px;
+}
+
+.topGameFive {
+    border: grey solid 1px;
+    border-radius: 5%;
+    background-color: #22252e;
+    padding-bottom: 5%;
+    margin-bottom: 5%;
+    width: 300px;
+}
+
+.topGameText {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}

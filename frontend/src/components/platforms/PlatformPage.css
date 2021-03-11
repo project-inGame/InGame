@@ -1,0 +1,21 @@
+.platformGamesBox {
+    width: 100%;
+    margin: 5px auto;
+    text-align: center;
+    
+}
+
+.platformGameCont {
+    width: 20%;
+    box-sizing: border-box;
+    margin: 2% auto;
+    background: var(--purpleAccentHov);
+    border: 5px solid var(--blueAccentHov);
+}
+
+.platformCont {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+

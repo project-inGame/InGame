@@ -9,6 +9,7 @@ const TopGames = () => {
             <TopGameTwo />
             <TopGameThree />
             <TopGameFour />
+            <TopGameFive />
         </div>
     )
 }
@@ -42,7 +43,7 @@ const TopGameTwo = () => {
             <div className="topGameText">
                 <h1 id="topGamesTitle">HALO: COMBAT EVOLVED</h1>
                 <h2 id="releaseYear">Released 2001</h2>
-                <p id="topGameBlurb">Hailed as the the most important launch game for any console ever, it's easily one of the best shooters ever, on any platform.</p>
+                <p id="topGameBlurb">Hailed as the the most important launch game for any console, it's easily one of the best shooters ever, on any platform.</p>
                 <a href="localhost:3000/topgames" id="tgLinks">Read More..</a>
             </div>  
         </div>
@@ -79,6 +80,24 @@ const TopGameFour = () => {
                 <h1 id="topGamesTitle">WORLD OF WARCRAFT</h1>
                 <h2 id="releaseYear">Released 2004</h2>
                 <p id="topGameBlurb">Blizzard's groundbreaking MMO is one of the most successful games ever.</p>
+                <a href="localhost:3000/topgames" id="tgLinks">Read More..</a>
+            </div>  
+        </div>
+    )
+}
+
+const TopGameFive = () => {
+    return (
+        <div className="topGameFive">
+            <div className="tgimgRating">
+                <img id="tgimg" src="../images/tgimg5.png" alt="Age Of Empires II"/>
+                <h1 id="topGameRating">85</h1>
+            </div>
+
+            <div className="topGameText">
+                <h1 id="topGamesTitle">AGE OF EMPIRES II</h1>
+                <h2 id="releaseYear">Released 1999</h2>
+                <p id="topGameBlurb">Age Of Empires II received universal acclaim and is considered one of the best RTS games ever made.</p>
                 <a href="localhost:3000/topgames" id="tgLinks">Read More..</a>
             </div>  
         </div>

@@ -1,0 +1,79 @@
+.navcss {
+    background-color: #b093ff; 
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  #logo {
+      padding-left: 10%;
+      cursor: pointer;
+  }
+
+  #logo:hover {
+    transform: scale(1.1);
+  }
+  
+  .linkList{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-left: 20%;
+    margin-top: 0;
+  }
+  
+  li {
+    padding: 0 2em;
+  }
+  .inputBox { 
+    border: #b093ff;;
+    border-radius: 28px;
+    font-weight: bold;
+    background-color: #7c51c2;
+    height: 30px;
+    width: 150px;
+    margin-left: 20px;
+    margin-top: 60px;
+    color: white;
+  }
+
+  .inputBox:focus {
+      outline: none;
+  }
+  ::placeholder{
+    color: white;
+    font-size: medium;
+    padding: 10px;
+  }
+  ul {
+    list-style-type: none;
+  }
+
+  a {
+      margin: 0 1em;
+  }
+  a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #215ace;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 5%;
+  }
+
+  li:hover {
+    transform: scale(1.3);
+  }
