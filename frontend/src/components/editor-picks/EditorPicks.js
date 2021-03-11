@@ -5,7 +5,7 @@ import EditorGames from "./EditorGames";
 
 const EditorPicks = () => {
   return (
-    <div className="editorPicks">
+    <div className="editorPicks containerStyle">
       <h2>Editor Picks</h2>
 
       <div className="editorPicksCont">
