@@ -1,5 +1,14 @@
-.body {
-  background-color: white;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #181a20;
+  font-family: 'Poppins', Helvetica, sans-serif;
+  color: #fff;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 .navcss {
   background-color: teal;

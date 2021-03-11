@@ -5,7 +5,10 @@
     width: 280px;
     border: 1px solid grey;
     text-align: center;
-    background-color: rgb(2, 2, 2);
+    background-color: #22252e; 
+    margin: 1.5em; /*change to 1 or 0.75 if already ina small container*/
+    padding: 0.25em 0;
+    border-radius: 1em;
 }
 
 #tgTitle {
@@ -33,6 +36,8 @@
     border-radius: 10%;
     background-color: grey;
     margin-top: 2%;
+    margin: 1em;
+    border-radius: 1em;
 }
 
 #topGameRating {
@@ -46,8 +51,14 @@
 }
 
 #tgLinks {
-    color: blue;
+    color: #246bfe;
     font-size: 10px;
+}
+
+#tgLinks:hover {
+    color: #215ace;
+    transform: scale(1.5);
+    cursor: pointer;
 }
 
 #topGameBlurb {
