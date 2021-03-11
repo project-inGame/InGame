@@ -4,8 +4,8 @@ import "./components/login/Login.css";
 import React, {Component} from "react";
 import EditorPicks from "./components/editor-picks/EditorPicks"
 import TopGames from './components/top-games/TopGames';
-import Navbar from './components/navbar/Navbar.js';
-import Advert from './components/adverts/Adverts.js';
+import Navbar from './components/navbar/navbar.js';
+import Advert from './components/Adverts/Adverts.js';
 import Platforms from './components/platforms/Platforms.js';
 import Login from './components/login/Login';
 import Footer from './components/footer/Footer'

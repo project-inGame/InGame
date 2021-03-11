@@ -6,11 +6,13 @@ import './Adverts.css';
 const Advert = () => {
     return (
         <div className="AdContainer">
+            <h3>LATEST OFFERS</h3>
             <AdvertOne />
             <AdvertTwo />
             <AdvertThree />
             <AdvertFour />
             <AdvertFive />
+            <AdvertSix />
         </div>
     )
 }
@@ -67,6 +69,16 @@ const AdvertFive = () => {
             <div className="Five">
                 <img id="Agif5" src="./../../images/skyrim.webp" alt="alt5"/> 
                 <h1 id="AdText5">Skyrim 20% off</h1> 
+            </div>
+        </div>
+    )
+}
+const AdvertSix = () => {
+    return (
+        <div className="AdGameSix">
+            <div className="Six">
+                <img id="Agif6" src="./../../images/fortnite.webp" alt="alt6"/> 
+                <h1 id="AdText6">Get 10% off V-Bucks when you sign up</h1> 
             </div>
         </div>
     )
