@@ -12,7 +12,7 @@ function Footer() {
                 <p>WE ARE CODENATION</p>
             </div>
             <div className="variousPlatforms">
-                <p>PS4 - XBOXONE - SWITCH - PC - WIIU - 3DS - PS VITA - IOS</p>
+                <p>XBOX SERIES X/S - PS5 - XBOX ONE - NINTENDO SWITCH - PS4 - PC</p>
             </div>
             <div className="socialLinks">
                 <i className="fa fa-twitter"></i>
