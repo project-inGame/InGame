@@ -1,0 +1,27 @@
+.footerNav {
+    background-color: rgb(48, 43, 43);
+    color:rgb(102, 89, 89);
+    text-align: center;
+}
+
+.creditInfo > p {
+    font-size: 10px;
+}
+
+.variousPlatforms {
+    color: lightslategrey;
+}
+
+.footerLinks > p{
+    color: lightslategrey;
+    font-size: 10px;
+}
+
+.copyright > p {
+    font-size: 10px;
+}
+
+.socialLinks {
+    font-size: 30px;
+    margin: 0;
+}

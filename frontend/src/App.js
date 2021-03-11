@@ -6,6 +6,8 @@ import EditorPicks from "./components/editor-picks/EditorPicks"
 import TopGames from './components/TopGames/TopGames';
 import Navbar from './components/navbar/navbar.js';
 import Advert from './components/Adverts/Adverts.js';
+import Footer from './components/footer/Footer'
+import 'font-awesome/css/font-awesome.min.css';
 
 function App() {
   return (
@@ -15,7 +17,7 @@ function App() {
       <EditorPicks />
       <TopGames />
       <Advert />
-
+      <Footer />
     </div>
   );
 }
