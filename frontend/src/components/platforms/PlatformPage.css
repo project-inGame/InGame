@@ -1,0 +1,14 @@
+.platformGameCont {
+    width: 33%;
+    height: 100%;
+    box-sizing: border-box;
+    margin: 2% auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.PS5GamesCont {
+    display: flex;
+    flex-wrap: wrap;
+}
+
