@@ -15,6 +15,8 @@ const Platforms = () => {
             <PlFour />
             <PlFive />
             <PlSix />
+            <PlSeven />
+            <PlEight />
             </div>
         </div>
     )
@@ -68,8 +70,8 @@ const PlFive = () => {
     return (
         <div className="platFive">
             <div className="plAFive">
-                <img id="plGif5" src="./../../images/psvrPl.jpg" alt="alt5"/> 
-                <h1 id="AdText5">PSVR</h1> 
+                <img id="plGif5" src="./../../images/wiiu.jpg" alt="alt5"/> 
+                <h1 id="AdText5">Wii U</h1> 
             </div>
         </div>
     )
@@ -80,6 +82,26 @@ const PlSix = () => {
             <div className="plASix">
                 <img id="plGif6" src="./../../images/ps4pl.jpg" alt="alt6"/> 
                 <h1 id="AdText6">PLAYSTATION 4</h1> 
+            </div>
+        </div>
+    )
+}
+const PlSeven = () => {
+    return (
+        <div className="platSeven">
+            <div className="plASeven">
+                <img id="plGif7" src="./../../images/pcgaming.jpg" alt="alt7"/> 
+                <h1 id="AdText7">PC</h1> 
+            </div>
+        </div>
+    )
+}
+const PlEight = () => {
+    return (
+        <div className="platEight">
+            <div className="plAEight">
+                <img id="plGif8" src="./../../images/stadia.jpg" alt="alt8"/> 
+                <h1 id="AdText8">Stadia</h1> 
             </div>
         </div>
     )

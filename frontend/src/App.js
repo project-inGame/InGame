@@ -4,10 +4,11 @@ import "./components/login/Login.css";
 import React, {Component} from "react";
 import EditorPicks from "./components/editor-picks/EditorPicks"
 import TopGames from './components/top-games/TopGames';
-import Navbar from './components/navbar/Navbar.js';
-import Advert from './components/Adverts/Adverts.js';
-import Platforms from './components/platforms/Platforms.js';
 import PlatformPage from './components/platforms/PlatformPage.js'
+import Navbar from './components/navbar/navbar.js';
+import Adverts from './components/adverts/Adverts.js';
+import Platforms from './components/platforms/Platforms.js';
+import Game from './components/Game/Game.js';
 import Login from './components/login/Login';
 import Footer from './components/footer/Footer'
 import 'font-awesome/css/font-awesome.min.css';
@@ -16,13 +17,14 @@ import 'font-awesome/css/font-awesome.min.css';
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <Game />
       <Login />
+      <Navbar />
       <EditorPicks />
         <div className="sideBar">
           <TopGames />
-          <Platforms /> 
-          <Advert />
+          <Platforms />
+          <Adverts />
         </div>
         <PlatformPage />
       <Footer />

@@ -95,7 +95,24 @@
     margin-bottom: 9%;
     width: 300px;
 }
-
+.platSeven {
+    color: #246bfe;
+    border: grey solid 1px;
+    border-radius: 5%;
+    background-color: #22252e;
+    padding-bottom: 2%;
+    margin-bottom: 9%;
+    width: 300px;
+}
+.platEight {
+    color: #246bfe;
+    border: grey solid 1px;
+    border-radius: 5%;
+    background-color: #22252e;
+    padding-bottom: 2%;
+    margin-bottom: 9%;
+    width: 300px;
+}
 #ptgif {
     font-size: 20px;
     color: white;
@@ -106,7 +123,7 @@
     padding: 10px;
     border: black solid 2px;
     border-radius: 10%;
-    background-color: #696d80;;
+    background-color: #696d80;
     margin-top: 2%;
     margin: 1em;
     border-radius: 1em;
@@ -118,7 +135,7 @@
     padding: 10px;
     border: black solid 2px;
     border-radius: 10%;
-    background-color: #696d80;;
+    background-color: #696d80;
     margin-top: 2%;
     margin: 1em;
     border-radius: 1em;
@@ -129,7 +146,7 @@
     padding: 10px;
     border: black solid 2px;
     border-radius: 10%;
-    background-color: #696d80;;
+    background-color: #696d80;
     margin-top: 2%;
     margin: 1em;
     border-radius: 1em;
@@ -145,7 +162,7 @@
     padding: 10px;
     border: black solid 2px;
     border-radius: 10%;
-    background-color: #696d80;;
+    background-color: #696d80;
     margin-top: 2%;
     margin: 1em;
     border-radius: 1em;
@@ -156,7 +173,7 @@
     padding: 10px;
     border: black solid 2px;
     border-radius: 10%;
-    background-color: #696d80;;
+    background-color: #696d80;
     margin-top: 2%;
     margin: 1em;
     border-radius: 1em;
@@ -167,12 +184,32 @@
     padding: 10px;
     border: black solid 2px;
     border-radius: 10%;
-    background-color: #696d80;;
+    background-color: #696d80;
     margin-top: 2%;
     margin: 1em;
     border-radius: 1em;
 }
 
-
-
+#plGif7 {
+    height: 150px;
+    width: 250px;
+    padding: 10px;
+    border: black solid 2px;
+    border-radius: 10%;
+    background-color: #696d80;
+    margin-top: 2%;
+    margin: 1em;
+    border-radius: 1em;
+}
+#plGif8 {
+    height: 150px;
+    width: 250px;
+    padding: 10px;
+    border: black solid 2px;
+    border-radius: 10%;
+    background-color: #696d80;
+    margin-top: 2%;
+    margin: 1em;
+    border-radius: 1em;
+}
 
