@@ -1,6 +1,7 @@
 .editorPicks {
-    width: 70%;
+    width: 80%;
     margin: 10px auto;
+    background-color: var(--containerBckgr);
 }
 
 .editorPicksCont {

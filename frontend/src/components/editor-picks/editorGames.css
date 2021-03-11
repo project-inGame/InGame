@@ -1,5 +1,7 @@
 .editorGamesCont {
     width: 25%;
+    margin: auto 5px;
+    background: var(--blueAccent);
     
 }
 
