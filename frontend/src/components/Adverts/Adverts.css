@@ -1,0 +1,30 @@
+.AdContainer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 70%;
+}
+#Adgif{
+    border: 2px solid white;
+    text-align: center;
+    padding-right: 20px;
+}
+#Agif1{
+    height: 200px;
+    width: 490px;
+}
+#Agif2{
+    height: 200px;
+    width: 490px;
+}
+#Agif3{
+    height: 200px;
+    width: 490px;
+}
+#Agif4{
+    height: 200px;
+    width: 490px;
+}
+#Agif5 {
+    height: 200px;
+    width: 490px;
+}
