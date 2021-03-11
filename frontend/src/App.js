@@ -13,12 +13,13 @@ import 'font-awesome/css/font-awesome.min.css';
 function App() {
   return (
     <div className="App">
-
       <Navbar />
       <EditorPicks />
-      <TopGames />
-      <Advert />
-      <Platforms />
+        <div className="sideBar">
+          <TopGames />
+          <Platforms />
+          <Advert />
+        </div>
       <Footer />
     </div>
   );
