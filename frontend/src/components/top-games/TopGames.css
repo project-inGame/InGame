@@ -1,3 +1,4 @@
+
 .topGamesContainer {
     display: flex;
     flex-direction: column;
@@ -5,7 +6,7 @@
     width: 280px;
     border: 1px solid grey;
     text-align: center;
-    background-color: #22252e; 
+    background-color:  #181a20; 
     margin: 1.5em; /*change to 1 or 0.75 if already ina small container*/
     padding: 0.25em 0;
     border-radius: 1em;
@@ -13,20 +14,22 @@
 
 #tgTitle {
     font-size: 20px;
-    color: honeydew;
+    color: #a169fb;
 }
 
 #topGamesTitle {
-    font-size: 15px;
-    color: black;
+    color: #246bfe;
+    font-size: 25px;
+    font-weight: 800;
 }
 
 #releaseYear {
-    font-size: 13px;
     color:grey;
     text-align: center;
     padding-bottom: 0;
     margin: 0;
+    font-size: 15px;
+    font-weight: 700;
 }
 
 #tgimg {
@@ -62,7 +65,7 @@
 }
 
 #topGameBlurb {
-    color: black;
+    color: white;
     font-size: 15px;
 }
 
@@ -75,7 +78,7 @@
 .topGameOne {
     border: grey solid 1px;
     border-radius: 5%;
-    background-color: white;
+    background-color: #22252e;
     padding-bottom: 2%;
     margin-bottom: 2%;
     width: 250px;
@@ -84,7 +87,7 @@
 .topGameTwo {
     border: grey solid 1px;
     border-radius: 5%;
-    background-color: white;
+    background-color: #22252e;
     padding-bottom: 2%;
     margin-bottom: 2%;
     width: 250px;
@@ -93,7 +96,7 @@
 .topGameThree {
     border: grey solid 1px;
     border-radius: 5%;
-    background-color: white;
+    background-color: #22252e;
     padding-bottom: 2%;
     margin-bottom: 2%;
     width: 250px;
@@ -102,7 +105,7 @@
 .topGameFour {
     border: grey solid 1px;
     border-radius: 5%;
-    background-color: white;
+    background-color: #22252e;
     padding-bottom: 2%;
     margin-bottom: 2%;
     width: 250px;
