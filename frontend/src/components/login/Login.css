@@ -1,0 +1,16 @@
+.loginBox{
+    display: flex;
+    flex-direction: column;
+   margin-left: 80%;
+    
+}
+.eBar{
+  
+    width: 200px;
+}
+.pBar {
+    width: 200px;
+}
+.sBtn {
+    width: 60px;
+}

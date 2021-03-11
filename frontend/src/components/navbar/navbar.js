@@ -12,6 +12,7 @@ const Navbar = () => {
         <li><a href="/topgames">Top Games</a></li>
         <li><a href="/newreleases">New Releases</a></li>
         <li><a href="/about">About</a></li>
+     
         </div>
       </ul>
   

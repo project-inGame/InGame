@@ -2,8 +2,6 @@
 .pt1Container{
     display: flex;
     flex-direction: row;
-    
-    
 }
 #plGif1 {
     height: 100px;
