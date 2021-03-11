@@ -21,7 +21,7 @@ connection.once('open', function () {
     console.log('MongoDB database connection established successfully!');
 })
 
-app.use("/", apiRouter);
+app.use("/games", apiRouter);
 
 app.listen(5000, () => {
   console.log("Online");
