@@ -7,6 +7,7 @@ import TopGames from './components/top-games/TopGames';
 import Navbar from './components/navbar/navbar.js';
 import Adverts from './components/adverts/Adverts.js';
 import Platforms from './components/platforms/Platforms.js';
+import Game from './components/Game/Game.js';
 import Login from './components/login/Login';
 import Footer from './components/footer/Footer'
 import 'font-awesome/css/font-awesome.min.css';
@@ -15,6 +16,7 @@ import 'font-awesome/css/font-awesome.min.css';
 function App() {
   return (
     <div className="App">
+      <Game />
       <Login />
       <Navbar />
       <EditorPicks />
