@@ -27,17 +27,17 @@ function App() {
   return (
     <div className="App">
 
-      <Game id="604a3dc57f5b873069486cb5"/>
+      <Login />
       <Navbar />
       <EditorPicks />
+    
+      <Game id="604a3dc57f5b873069486cb5"/>
+    
       <TopGames />
       <Advert />
       <Platforms data={games.filter((game) => game.platform === "PlayStation4")} />
 
-      <Game />
-      <Login />
-      <Navbar />
-      <EditorPicks />
+
         <div className="sideBar">
           <TopGames />
           <Platforms />
