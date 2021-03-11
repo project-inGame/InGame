@@ -6,8 +6,8 @@ const Switch = (props) => {
       <h1 className="platformTitle">Switch Games</h1>
 
       <div className="platformCont" id="Switch">
-        <div className="platformGameCont">
-          <img src={props.img} alt="" />
+        <div className="platformGameCont containerStyle">
+          <img src={props.img} alt="" className="imgStyle" />
           <div>
             <h2>Game Title</h2>
             <h4>Release Date:</h4>
@@ -15,8 +15,8 @@ const Switch = (props) => {
           </div>
         </div>
 
-        <div className="platformGameCont">
-          <img src={props.img2} alt="" />
+        <div className="platformGameCont containerStyle">
+          <img src={props.img2} alt="" className="imgStyle" />
           <div>
             <h2>Game Title</h2>
             <h4>Release Date:</h4>
@@ -24,8 +24,8 @@ const Switch = (props) => {
           </div>
         </div>
 
-        <div className="platformGameCont">
-          <img src={props.img} alt="" />
+        <div className="platformGameCont containerStyle">
+          <img src={props.img} alt="" className="imgStyle" />
           <div>
             <h2>Game Title</h2>
             <h4>Release Date:</h4>
@@ -33,8 +33,8 @@ const Switch = (props) => {
           </div>
         </div>
 
-        <div className="platformGameCont">
-          <img src={props.img2} alt="" />
+        <div className="platformGameCont containerStyle">
+          <img src={props.img2} alt="" className="imgStyle" />
           <div>
             <h2>Game Title</h2>
             <h4>Release Date:</h4>
