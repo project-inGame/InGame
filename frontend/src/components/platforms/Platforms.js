@@ -7,14 +7,11 @@ import './Platforms.css';
 const Platforms = () => {
     return (
         <div className="ptfContainer">
-            <h1 id="ptgif">Platforms</h1>
             <div className="pt1Container">
+            <h1 id="ptgif">PLATFORMS</h1>
             <PlOne />
             <PlTwo />
             <PlThree />
-            </div>
-
-            <div className="pt2Container">
             <PlFour />
             <PlFive />
             <PlSix />
@@ -28,7 +25,7 @@ const PlOne = () => {
         <div className="platOne">
             <div className="plAOne">
                 <img id="plGif1" src="./../../images/xboxXpl.jpg" alt="alt1"/> 
-                <h1 id="plText1">XBox Series X/S</h1> 
+                <h1 id="plText1">XBOX X/S</h1> 
             </div>
 
            
@@ -40,7 +37,7 @@ const PlTwo = () => {
         <div className="platTwo">
             <div className="plATwo">
                 <img id="plGif2" src="./../../images/ps5pl.jpg" alt="alt2"/> 
-                <h1 id="plText2">PlayStation 5</h1> 
+                <h1 id="plText2">PLAYSTATION 5</h1> 
             </div>
 
            
@@ -52,7 +49,7 @@ const PlThree = () => {
         <div className="platThree">
             <div className="plAThree">
                 <img id="plGif3" src="./../../images/xbox1pl.jpg" alt="alt3"/> 
-                <h1 id="plText3">Xbox One S</h1> 
+                <h1 id="plText3">XBOX ONE</h1> 
             </div>
         </div>
     )
@@ -62,7 +59,7 @@ const PlFour = () => {
         <div className="platFour">
             <div className="plAFour">
                 <img id="plGif4" src="./../../images/switchpl.jpg" alt="alt4"/> 
-                <h1 id="plText4">Nintendo Switch</h1> 
+                <h1 id="plText4">NINTENDO SWITCH</h1> 
             </div>
         </div>
     )
@@ -82,7 +79,7 @@ const PlSix = () => {
         <div className="platSix">
             <div className="plASix">
                 <img id="plGif6" src="./../../images/ps4pl.jpg" alt="alt6"/> 
-                <h1 id="AdText6">PlayStation 4</h1> 
+                <h1 id="AdText6">PLAYSTATION 4</h1> 
             </div>
         </div>
     )
