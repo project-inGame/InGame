@@ -1,14 +1,21 @@
-.platformGameCont {
-    width: 33%;
-    height: 100%;
-    box-sizing: border-box;
-    margin: 2% auto;
-    display: flex;
-    justify-content: space-around;
+.platformGamesBox {
+    width: 100%;
+    margin: 5px auto;
+    text-align: center;
+    
 }
 
-.PS5GamesCont {
+.platformGameCont {
+    width: 20%;
+    box-sizing: border-box;
+    margin: 2% auto;
+    background: var(--purpleAccentHov);
+    border: 5px solid var(--blueAccentHov);
+}
+
+.platformCont {
     display: flex;
     flex-wrap: wrap;
+    
 }
 

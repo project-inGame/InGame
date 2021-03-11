@@ -14,8 +14,8 @@ import WiiU from "./eachPlatform/WiiU";
 const PlatformPage = () => {
   return (
    
-    <div className="platformGamesBox">
-         <PlayStation5 img={uncharted} img2={doom2016}/>
+    <div className="platformGamesBox containerStyle">
+         <PlayStation5 img={uncharted} img2={doom2016} />
          <PlayStation4 img={uncharted} img2={doom2016}/>
          <PC img={uncharted} img2={doom2016}/>
          <Switch img={uncharted} img2={doom2016}/>
