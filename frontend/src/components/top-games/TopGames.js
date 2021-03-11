@@ -42,7 +42,7 @@ const TopGameTwo = () => {
             <div className="topGameText">
                 <h1 id="topGamesTitle">HALO: COMBAT EVOLVED</h1>
                 <h2 id="releaseYear">Released 2001</h2>
-                <p id="topGameBlurb">Hailed as the the most important launch game for any console ever, it's easily one of the best shooters ever, on any platform.</p>
+                <p id="topGameBlurb">Hailed as the the most important launch game for any console, it's easily one of the best shooters ever, on any platform.</p>
                 <a href="localhost:3000/topgames" id="tgLinks">Read More..</a>
             </div>  
         </div>

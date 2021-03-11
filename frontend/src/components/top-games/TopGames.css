@@ -1,38 +1,48 @@
+
 .topGamesContainer {
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
-    width: 280px;
+    width: 330px;
     border: 1px solid grey;
     text-align: center;
-    background-color: rgb(2, 2, 2);
+    background-color:  #181a20; 
+    margin: 1.5em; /*change to 1 or 0.75 if already ina small container*/
+    padding: 0.25em 0;
+    border-radius: 1em;
+    padding-bottom: 0;
 }
 
 #tgTitle {
     font-size: 20px;
-    color: honeydew;
+    color: white;
 }
 
 #topGamesTitle {
-    font-size: 15px;
-    color: black;
+    color: #246bfe;
+    font-size: 21px;
+    font-weight: 800;
 }
 
 #releaseYear {
-    font-size: 13px;
     color:grey;
     text-align: center;
     padding-bottom: 0;
     margin: 0;
+    font-size: 15px;
+    font-weight: 700;
 }
 
 #tgimg {
-    height: 110px;
-    width: 100px;
+    height: 130px;
+    width: 140px;
     border: black solid 2px;
     border-radius: 10%;
     background-color: grey;
     margin-top: 2%;
+    margin: 1em;
+    border-radius: 1em;
 }
 
 #topGameRating {
@@ -46,13 +56,20 @@
 }
 
 #tgLinks {
-    color: blue;
-    font-size: 10px;
+    color: #246bfe;
+    font-size: 15px;
+}
+
+#tgLinks:hover {
+    color: #215ace;
+    transform: scale(1.5);
+    cursor: pointer;
 }
 
 #topGameBlurb {
-    color: black;
+    color: white;
     font-size: 15px;
+    padding: 2%;
 }
 
 .tgimgRating {
@@ -64,37 +81,37 @@
 .topGameOne {
     border: grey solid 1px;
     border-radius: 5%;
-    background-color: white;
-    padding-bottom: 2%;
-    margin-bottom: 2%;
-    width: 250px;
+    background-color: #22252e;
+    padding-bottom: 5%;
+    margin-bottom: 5%;
+    width: 300px;
 }
 
 .topGameTwo {
     border: grey solid 1px;
     border-radius: 5%;
-    background-color: white;
-    padding-bottom: 2%;
-    margin-bottom: 2%;
-    width: 250px;
+    background-color: #22252e;
+    padding-bottom: 5%;
+    margin-bottom: 5%;
+    width: 300px;
 }
 
 .topGameThree {
     border: grey solid 1px;
     border-radius: 5%;
-    background-color: white;
-    padding-bottom: 2%;
-    margin-bottom: 2%;
-    width: 250px;
+    background-color: #22252e;
+    padding-bottom: 5%;
+    margin-bottom: 5%;
+    width: 300px;
 }
 
 .topGameFour {
     border: grey solid 1px;
     border-radius: 5%;
-    background-color: white;
-    padding-bottom: 2%;
-    margin-bottom: 2%;
-    width: 250px;
+    background-color: #22252e;
+    padding-bottom: 5%;
+    margin-bottom: 5%;
+    width: 300px;
 }
 
 .topGameText {
