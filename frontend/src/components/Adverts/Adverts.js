@@ -3,14 +3,17 @@ import './Adverts.css';
 
 
 
-const Advert = () => {
+const Adverts = () => {
     return (
         <div className="AdContainer">
+            <h1 id="offersTitle">LATEST OFFERS</h1>
             <AdvertOne />
             <AdvertTwo />
             <AdvertThree />
             <AdvertFour />
             <AdvertFive />
+            <AdvertSix />
+            <AdvertSeven />
         </div>
     )
 }
@@ -71,5 +74,25 @@ const AdvertFive = () => {
         </div>
     )
 }
+const AdvertSix = () => {
+    return (
+        <div className="AdGameSix">
+            <div className="Six">
+                <img id="Agif6" src="./../../images/fortnite.webp" alt="alt6"/> 
+                <h1 id="AdText6">Get 10% off V-Bucks when you sign up</h1> 
+            </div>
+        </div>
+    )
+}
+const AdvertSeven = () => {
+    return (
+        <div className="AdGameSeven">
+            <div className="Seven">
+                <img id="Agif7" src="./../../images/giphy.webp" alt="alt7"/> 
+                <h1 id="AdText7">Huge discounts on graphics cards</h1> 
+            </div>
+        </div>
+    )
+}
 
-export default Advert;
+export default Adverts;

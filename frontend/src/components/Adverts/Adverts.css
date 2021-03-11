@@ -1,29 +1,192 @@
 .AdContainer {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    width: 330px;
+    border: 1px solid grey;
+    text-align: center;
+    background-color:  #181a20; 
+    margin: 1.5em; /*change to 1 or 0.75 if already ina small container*/
+    padding: 0.25em 0;
+    border-radius: 1em;
+    padding-bottom: 0;
 }
-#Adgif{
+/* #Adgif{
     border: 2px solid white;
     text-align: center;
     padding-right: 20px;
+   
+} */
+#offersTitle {
+    font-size: 20px;
+    color: white;
 }
+
 #Agif1{
-    height: 200px;
-    width: 490px;
+    height: 150px;
+    width: 250px;
+    padding: 10px;
+    border: black solid 2px;
+    border-radius: 10%;
+    background-color: #696d80;
+    margin-top: 2%;
+    margin: 1em;
+    border-radius: 1em;
+}
+.AdGameOne{
+    border: grey solid 1px;
+    border-radius: 5%;
+    background-color: #22252e;
+    padding-bottom: 5%;
+    margin-bottom: 10%;
+    width: 300px;
+}
+#AdText1 {
+    color: #246bfe;
+    padding: 0;
+    margin: 0;
 }
 #Agif2{
-    height: 200px;
-    width: 490px;
+    height: 150px;
+    width: 250px;
+    padding: 10px;
+    border: black solid 2px;
+    border-radius: 10%;
+    background-color: #696d80;
+    margin-top: 2%;
+    margin: 1em;
+    border-radius: 1em;
+}
+.AdGameTwo {
+    border: grey solid 1px;
+    border-radius: 5%;
+    background-color: #22252e;
+    padding-bottom: 5%;
+    margin-bottom: 10%;
+    width: 300px;
+}
+#AdText2 {
+    color: #246bfe;
+    padding: 0;
+    margin: 0;
 }
 #Agif3{
-    height: 200px;
-    width: 490px;
+    height: 150px;
+    width: 250px;
+    padding: 10px;
+    border: black solid 2px;
+    border-radius: 10%;
+    background-color: #696d80;
+    margin-top: 2%;
+    margin: 1em;
+    border-radius: 1em;
 }
-#Agif4{
-    height: 200px;
-    width: 490px;
+.AdGameThree {
+    border: grey solid 1px;
+    border-radius: 5%;
+    background-color: #22252e;
+    padding-bottom: 5%;
+    margin-bottom: 10%;
+    width: 300px;
+}
+#AdText3 {
+    color: #246bfe;
+    padding: 0;
+    margin: 0;
+}
+#Agif4 {
+    height: 150px;
+    width: 250px;
+    padding: 10px;
+    border: black solid 2px;
+    border-radius: 10%;
+    background-color: #696d80;
+    margin-top: 2%;
+    margin: 1em;
+    border-radius: 1em;
+}
+.AdGameFour  {
+    border: grey solid 1px;
+    border-radius: 5%;
+    background-color: #22252e;
+    padding-bottom: 5%;
+    margin-bottom: 10%;
+    width: 300px;
+}
+#AdText4 {
+    color: #246bfe;
+    padding: 0;
+    margin: 0;
 }
 #Agif5 {
-    height: 200px;
-    width: 490px;
+    height: 150px;
+    width: 250px;
+    padding: 10px;
+    border: black solid 2px;
+    border-radius: 10%;
+    background-color: #696d80;
+    margin-top: 2%;
+    margin: 1em;
+    border-radius: 1em;
+}
+.AdGameFive {
+    border: grey solid 1px;
+    border-radius: 5%;
+    background-color: #22252e;
+    padding-bottom: 5%;
+    margin-bottom: 10%;
+    width: 300px;
+}
+#AdText5 {
+    color: #246bfe;
+    padding: 0;
+    margin: 0;
+}
+#Agif6 {
+    height: 150px;
+    width: 250px;
+    padding: 10px;
+    border: black solid 2px;
+    border-radius: 10%;
+    background-color: #696d80;
+    margin-top: 2%;
+    margin: 1em;
+    border-radius: 1em;
+}
+.AdGameSix {
+    border: grey solid 1px;
+    border-radius: 5%;
+    background-color: #22252e;
+    padding-bottom: 5%;
+    margin-bottom: 10%;
+    width: 300px;
+}
+#AdText6 {
+    color: #246bfe;
+    padding: 0;
+    margin: 0;
+}
+
+#Agif7 {
+    height: 150px;
+    width: 250px;
+    padding: 10px;
+    border: black solid 2px;
+    border-radius: 10%;
+    background-color: #696d80;
+    margin-top: 2%;
+    margin: 1em;
+    border-radius: 1em;
+}
+.AdGameSeven {
+    border: grey solid 1px;
+    border-radius: 5%;
+    background-color: #22252e;
+    padding-bottom: 5%;
+    width: 300px;
+}
+#AdText7 {
+    color: #246bfe;
+    padding: 0;
+    margin: 0;
 }
