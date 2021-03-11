@@ -14,7 +14,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-end;
-  margin-left: 50%;
+  margin-left: 20%;
 }
 
 li {
@@ -31,8 +31,7 @@ li {
   height: 30px;
   width: 400px;
   margin-left: 20px;
-  
-  margin-top: 10px;
+  margin-top: 60px;
 }
 ::placeholder{
   color: aliceblue;
