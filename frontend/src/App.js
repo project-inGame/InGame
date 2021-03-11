@@ -4,6 +4,7 @@ import "./components/login/Login.css";
 import React, {Component} from "react";
 import EditorPicks from "./components/editor-picks/EditorPicks"
 import TopGames from './components/top-games/TopGames';
+import PlatformPage from './components/platforms/PlatformPage.js'
 import Navbar from './components/navbar/navbar.js';
 import Adverts from './components/adverts/Adverts.js';
 import Platforms from './components/platforms/Platforms.js';
@@ -25,6 +26,7 @@ function App() {
           <Platforms />
           <Adverts />
         </div>
+        <PlatformPage />
       <Footer />
     </div>
   );
