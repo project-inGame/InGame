@@ -3,11 +3,15 @@ import "./navbar.css";
 
 
 const Navbar = () => {
+
+  function refreshPage() {
+    window.location.reload(false);}
+
   return (
     <div>
       <ul className="navcss">
         
-       <img id="logo" src="../images/gamelogo.png" alt="logotop"/>
+       <img id="logo" src="../images/gamelogo.png" onClick={refreshPage} alt="logotop"/>
         <div className="linkList">
         <li><a href="/genre">Genre</a></li>
         &nbsp;
