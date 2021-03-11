@@ -1,0 +1,47 @@
+
+.pt1Container{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+#plGif1 {
+    height: 100px;
+    width: 200px;
+    padding: 10px;
+}
+
+#plGif2 {
+    height: 100px;
+    width: 200px;
+    padding: 10px;
+}
+#plGif3 {
+    height: 100px;
+    width: 200px;
+    padding: 10px;
+}
+.pt2Container{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+#plGif4 {
+    height: 100px;
+    width: 200px;
+    padding: 10px;
+}
+#plGif5 {
+    height: 100px;
+    width: 200px;
+    padding: 10px;
+}
+#plGif6 {
+    height: 100px;
+    width: 200px;
+    padding: 10px;
+}
+
+
+
+
