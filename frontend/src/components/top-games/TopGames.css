@@ -2,7 +2,6 @@
 .topGamesContainer {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
     align-items: center;
     width: 330px;
     border: 1px solid grey;
@@ -68,7 +67,7 @@
 
 #topGameBlurb {
     color: white;
-    font-size: 15px;
+    font-size: 16px;
     padding: 2%;
 }
 
@@ -83,7 +82,7 @@
     border-radius: 5%;
     background-color: #22252e;
     padding-bottom: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
     width: 300px;
 }
 
@@ -92,7 +91,7 @@
     border-radius: 5%;
     background-color: #22252e;
     padding-bottom: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
     width: 300px;
 }
 
@@ -101,11 +100,20 @@
     border-radius: 5%;
     background-color: #22252e;
     padding-bottom: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
     width: 300px;
 }
 
 .topGameFour {
+    border: grey solid 1px;
+    border-radius: 5%;
+    background-color: #22252e;
+    padding-bottom: 5%;
+    margin-bottom: 10%;
+    width: 300px;
+}
+
+.topGameFive {
     border: grey solid 1px;
     border-radius: 5%;
     background-color: #22252e;

@@ -5,7 +5,7 @@ import React, {Component} from "react";
 import EditorPicks from "./components/editor-picks/EditorPicks"
 import TopGames from './components/top-games/TopGames';
 import Navbar from './components/navbar/navbar.js';
-import Advert from './components/Adverts/Adverts.js';
+import Adverts from './components/adverts/Adverts.js';
 import Platforms from './components/platforms/Platforms.js';
 import Login from './components/login/Login';
 import Footer from './components/footer/Footer'
@@ -21,7 +21,7 @@ function App() {
         <div className="sideBar">
           <TopGames />
           <Platforms />
-          <Advert />
+          <Adverts />
         </div>
       <Footer />
     </div>
