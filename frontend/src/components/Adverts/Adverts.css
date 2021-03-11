@@ -17,64 +17,94 @@
     width: 470px;
     border: 1px solid white;
     border-radius: 1em;
+    background-color: #696d80;
 }
 .AdGameOne{
     border: 1px solid white;
     border-radius: 1em;
     padding: 0.25em 0;
+    
+}
+#AdText1 {
+    color: #246bfe;
 }
 #Agif2{
     height: 190px;
     width: 470px;
     border: 1px solid white;
     border-radius: 1em;
+    background-color: #696d80;
 }
 .AdGameTwo {
     border: 1px solid white;
     border-radius: 1em;
     padding: 0.25em 0;
+    
+}
+#AdText2 {
+    color: #246bfe;
 }
 #Agif3{
     height: 190px;
     width: 470px;
     border: 1px solid white;
     border-radius: 1em;
+    background-color: #696d80;
 }
 .AdGameThree {
     border: 1px solid white;
     border-radius: 1em;
     padding: 0.25em 0;
+    
+}
+#AdText3 {
+    color: #246bfe;
 }
 #Agif4 {
     height: 190px;
     width: 470px;
     border: 1px solid white;
-    border-radius: 1em;
+    border-radius: 1em; 
+    background-color: #696d80;
 }
 .AdGameFour  {
     border: 1px solid white;
     border-radius: 1em;
     padding: 0.25em 0;
+   
+}
+#AdText4 {
+    color: #246bfe;
 }
 #Agif5 {
     height: 190px;
     width: 470px;
     border: 1px solid white;
     border-radius: 1em;
+    background-color: #696d80;
 }
 .AdGameFive {
     border: 1px solid white;
     border-radius: 1em;
     padding: 0.25em 0;
+    
+}
+#AdText5 {
+    color: #246bfe;
 }
 #Agif6 {
     height: 190px;
     width: 470px;
     border: 1px solid white;
     border-radius: 1em;
+    background-color: #696d80;
 }
 .AdGameSix {
     border: 1px solid white;
     border-radius: 1em;
     padding: 0.25em 0;
+    
+}
+#AdText6 {
+    color: #246bfe;
 }
