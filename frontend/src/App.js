@@ -3,9 +3,10 @@ import "./App.css";
 import EditorPicks from "./components/editor-picks/EditorPicks";
 import TopGames from "./components/top-games/TopGames";
 import PlatformPage from "./components/platforms/PlatformPage.js";
-import Navbar from "./components/navbar/Navbar.js";
-import Adverts from "./components/adverts/Adverts.js";
+import Navbar from "./components/navbar/navbar.js";
+import Adverts from "./components/Adverts/Adverts.js";
 import Platforms from "./components/platforms/Platforms.js";
+import Game from "./components/Game/Game.js";
 import Games from "./components/Games/Games.js";
 import Login from "./components/login/Login";
 import Footer from "./components/footer/Footer";
@@ -59,6 +60,7 @@ function App() {
 function Home() {
   return (
     <div className="App">
+    
       <EditorPicks />
 
       <div className="mainArea">
@@ -71,6 +73,9 @@ function Home() {
           <Adverts />
         </div>
       </div>
+
+      <Footer />
+
     </div>
   );
 }

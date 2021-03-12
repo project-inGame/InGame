@@ -1,9 +1,18 @@
 .editorPicks {
-    width: 80%;
-    margin: 10px auto;
-    background-color: var(--containerBckgr);
+  width: 80%;
+  margin: 10px auto;
 }
 
 .editorPicksCont {
-    display:flex;
+  display: flex;
+}
+
+.changeh2 {
+  margin: 0.5em 0.5em 1em 0.5em;
+  color: var(--blueAccent);
+  font-size: 25px;
+}
+
+.editorPicksCont Game {
+  border: 2px solid #333;
 }
