@@ -8,6 +8,8 @@ const Game = new mongoose.Schema({
   releaseDate: { type: String, required: true },
   score: { type: Number, required: true },
   summary: { type: String, required: true },
+  poster: {type: String, required: false},
+  trailer: {type: String, required: false}
 });
 
 module.exports = mongoose.model("games", Game);

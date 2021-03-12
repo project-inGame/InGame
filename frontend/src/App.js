@@ -18,6 +18,7 @@ import {
 } from "react-router-dom";
 
 function App() {
+
   return (
     <Router>
       <Login />
@@ -84,30 +85,3 @@ function GameLib() {
 }
 
 export default App;
-
-//////////////////////////////////
-/* function App() {
-  return (
-    <div className="App">
-      <Login />
-      <Navbar />
-      <EditorPicks />
-
-      <Game id="604a3dc57f5b873069486cb5" />
-
-      <div className="mainArea">
-        <div className="mainBar">
-        <Platforms />
-        <PlatformPage />
-        </div>
-        <div className="sideBar">
-          <TopGames />
-          <Adverts />
-        </div>
-      </div>
-      <Footer />
-    </div>
-  );
-}
-
-export default App; */
