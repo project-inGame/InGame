@@ -7,8 +7,8 @@ import './Platforms.css';
 const Platforms = () => {
     return (
         <div className="ptfContainer">
-            <div className="pt1Container">
             <h1 id="ptgif">PLATFORMS</h1>
+            <div className="pt1Container">
             <PlOne />
             <PlTwo />
             <PlThree />

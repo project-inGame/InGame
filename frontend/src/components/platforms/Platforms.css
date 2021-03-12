@@ -1,15 +1,15 @@
 
 .pt1Container{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 330px;
-    border: 1px solid grey;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+
     text-align: center;
     background-color:  #181a20; 
-    margin: 1.5em; 
-    padding: 0.25em 0;
+
     border-radius: 1em;
+    box-sizing: border-box;
 }
 
 #plText1 {
@@ -43,7 +43,9 @@
     background-color: #22252e;
     padding-bottom: 2%;
     margin-bottom: 6%;
-    width: 300px;
+    width: 20%;
+    height: 150px;
+
 }
 
 .platTwo {
@@ -53,7 +55,8 @@
     background-color: #22252e;
     padding-bottom: 2%;
     margin-bottom: 6%;
-    width: 300px;
+    width: 20%;
+    height: 150px;
 }
 
 .platThree {
@@ -63,7 +66,9 @@
     background-color: #22252e;
     padding-bottom: 2%;
     margin-bottom: 6%;
-    width: 300px;
+    width: 20%;
+    height: 150px;
+
 }
 
 .platFour {
@@ -73,7 +78,9 @@
     background-color: #22252e;
     padding-bottom: 2%;
     margin-bottom: 6%;
-    width: 300px;
+    width: 20%;
+    height: 150px;
+
 }
 
 .platFive {
@@ -83,7 +90,9 @@
     background-color: #22252e;
     padding-bottom: 2%;
     margin-bottom: 6%;
-    width: 300px;
+    width: 20%;
+    height: 150px;
+
 }
 
 .platSix {
@@ -93,7 +102,9 @@
     background-color: #22252e;
     padding-bottom: 2%;
     margin-bottom: 9%;
-    width: 300px;
+    width: 20%;
+    height: 150px;
+
 }
 .platSeven {
     color: #246bfe;
@@ -102,7 +113,9 @@
     background-color: #22252e;
     padding-bottom: 2%;
     margin-bottom: 9%;
-    width: 300px;
+    width: 20%;
+    height: 150px;
+
 }
 .platEight {
     color: #246bfe;
@@ -111,15 +124,19 @@
     background-color: #22252e;
     padding-bottom: 2%;
     margin-bottom: 9%;
-    width: 300px;
+    width: 20%;
+    height: 150px;
+
 }
+
 #ptgif {
     font-size: 20px;
     color: white;
+    text-align: center;
 }
 #plGif1 {
-    height: 150px;
-    width: 250px;
+    height: 100px;
+    width: 100px;
     padding: 10px;
     border: black solid 2px;
     border-radius: 10%;
@@ -130,8 +147,8 @@
 }
 
 #plGif2 {
-    height: 150px;
-    width: 250px;
+    height: 100px;
+    width: 100px;
     padding: 10px;
     border: black solid 2px;
     border-radius: 10%;
@@ -141,8 +158,8 @@
     border-radius: 1em;
 }
 #plGif3 {
-    height: 150px;
-    width: 250px;
+    height: 100px;
+    width: 100px;
     padding: 10px;
     border: black solid 2px;
     border-radius: 10%;
@@ -151,14 +168,10 @@
     margin: 1em;
     border-radius: 1em;
 }
-.pt2Container{
-    display: flex;
-    flex-direction: row;
-    padding: 10px;
-}
+
 #plGif4 {
-    height: 150px;
-    width: 250px;
+    height: 100px;
+    width: 100px;
     padding: 10px;
     border: black solid 2px;
     border-radius: 10%;
@@ -168,8 +181,8 @@
     border-radius: 1em;
 }
 #plGif5 {
-    height: 150px;
-    width: 250px;
+    height: 100px;
+    width: 100px;
     padding: 10px;
     border: black solid 2px;
     border-radius: 10%;
@@ -179,8 +192,8 @@
     border-radius: 1em;
 }
 #plGif6 {
-    height: 150px;
-    width: 250px;
+    height: 100px;
+    width: 100px;
     padding: 10px;
     border: black solid 2px;
     border-radius: 10%;
@@ -191,8 +204,8 @@
 }
 
 #plGif7 {
-    height: 150px;
-    width: 250px;
+    height: 100px;
+    width: 100px;
     padding: 10px;
     border: black solid 2px;
     border-radius: 10%;
@@ -202,8 +215,8 @@
     border-radius: 1em;
 }
 #plGif8 {
-    height: 150px;
-    width: 250px;
+    height: 100px;
+    width: 100px;
     padding: 10px;
     border: black solid 2px;
     border-radius: 10%;

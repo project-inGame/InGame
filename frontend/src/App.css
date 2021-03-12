@@ -11,9 +11,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.mainArea {
+  display: flex;
+  justify-content:space-between;
+  width: 80%;
+  margin: 10px auto;
+}
+
 .sideBar {
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center;
+  flex-direction: column;
 }
