@@ -2,6 +2,8 @@ import React from "react";
 import "./aboutPage.css";
 
 const AboutPage = () => {
+
+  return(
   <div className="aboutPageArea">
     <h1 id="aboutTitle">About INGAME</h1>
     <img id="logo" src="../images/gamelogo.png" alt="logotop" />
@@ -30,7 +32,8 @@ const AboutPage = () => {
       enim sed risus semper ultrices. Fusce quam nunc, congue elementum nisi ut,
       rhoncus convallis magna.{" "}
     </p>
-  </div>;
+  </div>
+  )
 };
 
 export default AboutPage;
