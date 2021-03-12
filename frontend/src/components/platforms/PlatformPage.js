@@ -1,4 +1,4 @@
-import "./platformPage.css";
+import "./PlatformPage.css";
 
 import uncharted from "../../images/uncharted.jpg";
 import doom2016 from "../../images/doom2016PC.jpg";

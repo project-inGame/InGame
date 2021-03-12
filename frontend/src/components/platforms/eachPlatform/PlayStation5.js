@@ -1,4 +1,4 @@
-import "../platformPage.css";
+import "../PlatformPage.css";
 
 const PlayStation5 = (props) => {
   return (

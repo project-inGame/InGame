@@ -1,4 +1,4 @@
-import "../platformPage.css";
+import "../PlatformPage.css";
 
 const Switch = (props) => {
   return (
