@@ -1,5 +1,12 @@
+.gameWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .gameContainer {
-    width:80%;
+    width:80vw;
+    max-width: 1200px;
     display: flex;
     flex-direction: column;
     justify-content: center;

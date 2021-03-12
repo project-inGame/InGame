@@ -17,8 +17,6 @@ const Games = () => {
   return (
     <>
       <div className="gameWrapper">
-        <p>{games.title} </p>
-
         <div className="testingGames">
           {/* map to get the data */}
           {games.map((game, index) => (
