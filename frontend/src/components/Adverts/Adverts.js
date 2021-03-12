@@ -11,9 +11,9 @@ const Adverts = () => {
             <AdvertTwo />
             <AdvertThree />
             <AdvertFour />
-            <AdvertFive />
+            {/* <AdvertFive />
             <AdvertSix />
-            <AdvertSeven />
+            <AdvertSeven /> */}
         </div>
     )
 }
