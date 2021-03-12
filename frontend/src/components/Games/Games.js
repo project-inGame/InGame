@@ -36,13 +36,15 @@ const Games = () => {
                 </div>
 
                 <div className="gameMainContainer">
-                    {/* <img src={here insert the link from databse}></img> */}
+                    <img src={game.poster} width="200px" alt="poster"></img>
                 </div>
 
 
                 <div className="gameTrailer">
-                    <
+                <iframe title="title" width="560" height="315" src={game.trailer} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
+
+
                 <h3>{game.genre}</h3>
                 <h3>{game.score}</h3>
               </div>
