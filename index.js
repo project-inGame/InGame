@@ -23,6 +23,15 @@ connection.once('open', function () {
 
 app.use("/games", apiRouter);
 
+app.use("/auth", require("./routes/userRouter")); //joe
+app.use(express.json()); //joe
+
 app.listen(5000, () => {
   console.log("Online");
 });
+
+// const PORT = process.env.PORT || 5000;
+// app.listen(PORT, () => console.log(`Server started on port: ${PORT}`));
+// app.get("/test", (req, res) => {
+//   res.send("It works");
+// });
