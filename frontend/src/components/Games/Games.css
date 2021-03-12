@@ -7,25 +7,48 @@
 }
 
 .gameBasicInfo {
-   border: solid 2px #444;
-   margin:0.5em;
+   margin:1em;
 } 
 
 .titleAndPlatform{
     display:flex;
     gap: 2em;
-    justify-content: start;
-    align-items: flex-end;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
-.titleAndPlatform h3 {
-    color: var(--blueAccentHov);
+.titleAndPlatform h1 {
+    margin-bottom: 1em;
+} 
+.titleAndPlatform h2 {
+    color: var(--blueAccent);
 }
 
 .gameData {
     display: flex;
-    gap:1em;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 2em;
 }
+
 .thiccc {
     font-size: 18px;
     font-weight: 600;
+}
+
+.gameScore {
+    background-color: var(--blueAccent);
+    border-radius: 100%;
+    padding:0.45em;
+    margin:0 0.25em;
+}
+
+.gameSummary {
+    margin-top: 2em;
+}
+
+.gameData img {
+    border-radius: 1em;
+}
+iframe {
+    border-radius: 1em;
 }

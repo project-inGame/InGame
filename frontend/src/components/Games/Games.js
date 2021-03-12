@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./Games.css";
 
 const Games = () => {
+
   //fetch all games + add map
   const [games, setGames] = useState([]);
   useEffect(() => {
@@ -24,33 +25,36 @@ const Games = () => {
             <div className="gameContainer containerStyle" key={index}>
               
               <div className="gameBasicInfo">
+
                 <div className="titleAndPlatform">
                     <h1>{game.title}</h1>
-                    <h3>· {game.platform} ·</h3>
+                    <h2>· {game.platform} ·</h2>
                 </div>
                 
                 <div className="gameData">
-                    <p className="secText"><span className="thiccc"> Made by: </span> {game.gameDeveloper} </p>
-                    <p className="secText"><span className="thiccc"> Release date: </span> {game.releaseDate} </p>
-                    <p className="secText"><span className="thiccc"> See on different platforms: </span> INSERT A LINK TO PLATFORMS </p>
-                </div>
 
-                <div className="gameMainContainer">
                     <img src={game.poster} width="200px" alt="poster"></img>
+
+                    <div className="gameDetails">
+                        <h2><span className="thiccc"> Score: </span> <span className="gameScore"> {game.score}</span> </h2>
+                        <p><span className="thiccc lightGreen "> Genre: </span> {game.genre} </p>
+                        <p><span className="thiccc lightPink"> Made by: </span> {game.gameDeveloper} </p>
+                        <p><span className="thiccc lightPurple"> Release date: </span> {game.releaseDate} </p>
+                        <p><span className="thiccc lightOrange"> See on different platforms: </span> INSERT A LINK TO PLATFORMS </p>
+                    </div>                    
                 </div>
 
+                <div className="gameSummary">
+                    <h2>Summary:</h2>
+                    <p>{game.summary}</p>
+                </div>
 
                 <div className="gameTrailer">
-                <iframe title="title" width="560" height="315" src={game.trailer} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <h3>Game Trailer:</h3>
+                    <iframe title="title" width="560" height="315" src={game.trailer} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
 
-
-                <h3>{game.genre}</h3>
-                <h3>{game.score}</h3>
               </div>
-
-              <p>{game.score} </p>
-              <p>{game.summary} </p>
             </div>
           ))}
           ;
