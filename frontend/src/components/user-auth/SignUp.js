@@ -1,5 +1,9 @@
 import { setupMaster } from "cluster";
 import React, { useState } from "react";
+import Navbar from "./components/navbar/navbar.js";
+import Login from "./components/login/Login";
+import Footer from "./components/footer/Footer";
+import "font-awesome/css/font-awesome.min.css";
 
 function SignUp() {
     return (
@@ -36,6 +40,31 @@ const getResponse =async (e) => {
 
 return (
     <div className="userSignUp">
+        <div>
+            <Navbar />
+            <div className="signupBG">
+
+            </div>
+            <div className="SignupTxt">
+                <h1>Sign up today for exclusive membership discounts</h1>
+
+            </div>
+            <div className="SignUpInput">
+                <h3>Name</h3>
+                <input className="nameIn" type="text" placeholder="Enter Name..."></input>
+                <h3>Email</h3>
+                <input className="emailIn" type="text" placeholder="Enter email..."></input>
+                <h3>Password</h3>
+                <input className="passIn" type="password" placeholder="Enter password..."></input>
+
+            </div>
+            <div className="Footer">
+            <Footer />
+            </div>
+
+        </div>
+    )
+}
         <form onSubmit={getResponse}></form>
     </div>
     //use <form onSubmit={getResponse} form
