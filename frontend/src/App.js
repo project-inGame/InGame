@@ -10,6 +10,7 @@ import Games from "./components/Games/Games.js";
 import Login from "./components/login/Login";
 import Footer from "./components/footer/Footer";
 import SignUp from "./components/user-auth/SignUp"
+import AboutPage from "./components/about/AboutPage"
 import "font-awesome/css/font-awesome.min.css";
 import {
   BrowserRouter as Router,
@@ -50,6 +51,7 @@ function App() {
           </Route>
         </Switch>
       </div>
+      <Footer />
     </Router>
   );
 }
@@ -69,7 +71,6 @@ function Home() {
           <Adverts />
         </div>
       </div>
-      <Footer />
     </div>
   );
 }
@@ -77,7 +78,7 @@ function Home() {
 function About() {
   return (
     <>
-      <Platforms />
+      <AboutPage />
     </>
   );
 }
