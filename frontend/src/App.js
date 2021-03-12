@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css"
-/* import Game from "./components/Game/Game.js"; */
+import Games from "./components/Games/Games.js"; 
 import Login from "./components/login/Login";
 import Footer from "./components/footer/Footer";
 import "font-awesome/css/font-awesome.min.css";
@@ -19,7 +19,7 @@ function App() {
       <Navbar />
       <EditorPicks />
 
-     {/*  <Game id="604a3dc57f5b873069486cb5" /> */}
+      <Games id="604a3dc57f5b873069486cb5" />
 
       <div className="mainArea">
         <div className="mainBar">

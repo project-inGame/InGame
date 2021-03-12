@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import "./Games.css";
-const Games = () => {
 
-//fetch all games + add map
+const Games = () => {
+  //fetch all games + add map
   const [games, setGames] = useState([]);
   useEffect(() => {
     const getter = async () => {
@@ -13,30 +13,48 @@ const Games = () => {
     getter();
   }, []);
 
-
   return (
     <>
       <div className="gameWrapper">
         <p>{games.title} </p>
 
-
         <div className="testingGames">
-            {/* map to get the data */}
+          {/* map to get the data */}
           {games.map((game, index) => (
-            <div key = {index}>
-              <h3>{game.genre}</h3>
-              <h3>{game.score}</h3>
+            <div className="gameContainer containerStyle" key={index}>
+              
+              <div className="gameBasicInfo">
+                <div className="titleAndPlatform">
+                    <h1>{game.title}</h1>
+                    <h3>· {game.platform} ·</h3>
+                </div>
+                
+                <div className="gameData">
+                    <p className="secText"><span className="thiccc"> Made by: </span> {game.gameDeveloper} </p>
+                    <p className="secText"><span className="thiccc"> Release date: </span> {game.releaseDate} </p>
+                    <p className="secText"><span className="thiccc"> See on different platforms: </span> INSERT A LINK TO PLATFORMS </p>
+                </div>
+
+                <div className="gameMainContainer">
+                    {/* <img src={here insert the link from databse}></img> */}
+                </div>
+
+
+                <div className="gameTrailer">
+                    <
+                </div>
+                <h3>{game.genre}</h3>
+                <h3>{game.score}</h3>
+              </div>
+
+              <p>{game.score} </p>
+              <p>{game.summary} </p>
             </div>
-          ))};
+          ))}
+          ;
         </div>
 
-        <p>{games.genre} </p>
-        <p>{games.platfrom} </p>
-        <p>{games.gameDeveloper} </p>
-        <p>{games.releaseDate} </p>
-        <p>{games.score} </p>
-        <p>{games.summary} </p>
-        <div className="gameBasicInfo"></div>
+        
 
         <div className="gameDescription">
           <div className="gameImg"></div>

@@ -1,0 +1,31 @@
+.gameContainer {
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.gameBasicInfo {
+   border: solid 2px #444;
+   margin:0.5em;
+} 
+
+.titleAndPlatform{
+    display:flex;
+    gap: 2em;
+    justify-content: start;
+    align-items: flex-end;
+}
+.titleAndPlatform h3 {
+    color: var(--blueAccentHov);
+}
+
+.gameData {
+    display: flex;
+    gap:1em;
+}
+.thiccc {
+    font-size: 18px;
+    font-weight: 600;
+}
