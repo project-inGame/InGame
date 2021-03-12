@@ -6,9 +6,10 @@ import PlatformPage from "./components/platforms/PlatformPage.js";
 import Navbar from "./components/navbar/navbar.js";
 import Adverts from "./components/adverts/Adverts.js";
 import Platforms from "./components/platforms/Platforms.js";
-import Game from "./components/Game/Game.js";
+import Games from "./components/Games/Games.js";
 import Login from "./components/login/Login";
 import Footer from "./components/footer/Footer";
+import SignUp from "./components/user-auth/SignUp"
 import "font-awesome/css/font-awesome.min.css";
 import {
   BrowserRouter as Router,
@@ -41,8 +42,11 @@ function App() {
           <Route path="/about">
             <About />
           </Route>
-          <Route path="/game">
+          <Route path="/games">
             <GameLib />
+          </Route>
+          <Route>
+            <SignUp path="signup"/>
           </Route>
         </Switch>
       </div>
@@ -54,8 +58,6 @@ function Home() {
   return (
     <div className="App">
       <EditorPicks />
-
-      {/*  <Game id="604a3dc57f5b873069486cb5" /> */}
 
       <div className="mainArea">
         <div className="mainBar">
@@ -81,7 +83,11 @@ function About() {
 }
 
 function GameLib() {
-  return <Game />;
+  return <Games />;
+}
+
+function SignUp() {
+  return <SignUp />
 }
 
 export default App;

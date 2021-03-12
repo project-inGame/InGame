@@ -27,7 +27,7 @@ const Navbar = () => {
           </li>
           &nbsp;
           <li>
-          <Link to="/game">Game Library</Link>
+          <Link to="/games">Game Library</Link>
           </li>
           &nbsp; &nbsp; &nbsp; &nbsp;
           <input
