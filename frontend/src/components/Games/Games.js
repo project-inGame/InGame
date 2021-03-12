@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import "./Game.css";
-const Game = (props) => {
+import "./Games.css";
+const Games = () => {
 
 //fetch all games + add map
   const [games, setGames] = useState([]);
@@ -13,18 +13,6 @@ const Game = (props) => {
     getter();
   }, []);
 
-//fetch single game - just change the id - use insomnia or compass or game._id
-  const [game, setGame] = useState([]);
-  useEffect(() => {
-    const getter = async () => {
-      const response = await fetch(`http://localhost:5000/games/604aa6aea9074d5ee652728b`);
-      const data = await response.json();
-      setGame(data);
-    };
-    getter();
-  }, [props.id]);
-
-
 
   return (
     <>
@@ -33,6 +21,7 @@ const Game = (props) => {
 
 
         <div className="testingGames">
+            {/* map to get the data */}
           {games.map((game, index) => (
             <div key = {index}>
               <h3>{game.genre}</h3>
@@ -74,4 +63,4 @@ const Game = (props) => {
   );
 };
 
-export default Game;
+export default Games;
