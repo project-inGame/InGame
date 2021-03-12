@@ -16,14 +16,14 @@ function SignUp() {
     )
 }
 
-const getResponse =async (e) => {
+const getResponse = async (e) => {
     e.preventDefault();
 
     axios.post("http://local:5000/signup", { 
-        name:
-        email:
-        password:
-        passwordVerify:
+        name: "",
+        email: "",
+        password: "",
+        passwordVerify: ""
     })
     .then((res) => {
         console.log(res);
@@ -36,7 +36,9 @@ const getResponse =async (e) => {
     });
 };
 
-//on change handler, 
+// onChangeHandler() {
+
+// } 
 
 return (
     <div className="userSignUp">
@@ -49,25 +51,21 @@ return (
                 <h1>Sign up today for exclusive membership discounts</h1>
 
             </div>
-            <div className="SignUpInput">
+            <form className="SignUpInput" onSubmit={getResponse}>
                 <h3>Name</h3>
-                <input className="nameIn" type="text" placeholder="Enter Name..."></input>
+                <input className="nameIn" type="text" placeholder="Enter name.."></input>
                 <h3>Email</h3>
-                <input className="emailIn" type="text" placeholder="Enter email..."></input>
+                <input className="emailIn" type="text" placeholder="Enter email.."></input>
                 <h3>Password</h3>
-                <input className="passIn" type="password" placeholder="Enter password..."></input>
+                <input className="passIn" type="password" placeholder="Enter password.."></input>
 
-            </div>
+            </form>
             <div className="Footer">
             <Footer />
             </div>
 
         </div>
-    )
-}
-        <form onSubmit={getResponse}></form>
     </div>
-    //use <form onSubmit={getResponse} form
-) 
+    )
 
 export default SignUp;
