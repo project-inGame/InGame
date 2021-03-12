@@ -26,7 +26,7 @@ const Navbar = () => {
             <Link to="/about">About</Link>
           </li>
           &nbsp;
-          <li>
+          <li id="libraryButton">
           <Link to="/games">Game Library</Link>
           </li>
           &nbsp; &nbsp; &nbsp; &nbsp;
