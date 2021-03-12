@@ -1,75 +1,81 @@
 import React, { useState, useEffect } from "react";
 import "./Game.css";
+
 const Game = (props) => {
 
-//fetch all games + add map
-  const [games, setGames] = useState([]);
-  useEffect(() => {
-    const getter = async () => {
-      const response = await fetch(`http://localhost:5000/games`);
-      const data = await response.json();
-      setGames(data);
-    };
-    getter();
-  }, []);
-
-//fetch single game - just change the id - use insomnia or compass or game._id
+  //fetch single game - just change the id - use insomnia or compass or game._id
   const [game, setGame] = useState([]);
   useEffect(() => {
     const getter = async () => {
-      const response = await fetch(`http://localhost:5000/games/604aa6aea9074d5ee652728b`);
+      const response = await fetch(
+        `http://localhost:5000/games/{props._id}`
+      );
       const data = await response.json();
       setGame(data);
     };
     getter();
-  }, [props.id]);
-
-
+  }, [props._id]);
 
   return (
     <>
-      <div className="gameWrapper">
-        <p>{games.title} </p>
-
-
+      <div className="gameWrapper2">
         <div className="testingGames">
-          {games.map((game, index) => (
-            <div key = {index}>
-              <h3>{game.genre}</h3>
-              <h3>{game.score}</h3>
+       
+            <div className="gameContainer2 containerStyle" >
+              <div className="gameBasicInfo">
+                <div className="titleAndPlatform2">
+                    <h1>{game.title}</h1>
+                    <div className="platformAndScore">
+                      <h2>· {game.platform} ·</h2>
+                      <h3>
+                        <span className="thiccc"> Score: </span>{" "}
+                        <span className="gameScore2"> {game.score}</span>{" "}
+                      </h3>
+                  </div>
+                  
+                </div>
+                <img src={game.poster} width="150px" alt="poster"></img>
+
+                {/* Extra data if we want it later? */}
+                {/* <div className="gameData2">
+                  <img src={game.poster} width="200px" alt="poster"></img>
+
+                  <div className="gameDetails">
+                    <p>
+                      <span className="thiccc lightGreen "> Genre: </span>{" "}
+                      {game.genre}{" "}
+                    </p>
+                    <p>
+                      <span className="thiccc lightPink"> Made by: </span>{" "}
+                      {game.gameDeveloper}{" "}
+                    </p>
+                    <p>
+                      <span className="thiccc lightPurple">
+                        {" "}
+                        Release date:{" "}
+                      </span>{" "}
+                      {game.releaseDate}{" "}
+                    </p>
+                    <p>
+                      <span className="thiccc lightOrange">
+                        {" "}
+                        See on different platforms:{" "}
+                      </span>{" "}
+                      INSERT A LINK TO PLATFORMS{" "}
+                    </p>
+                  </div>
+                </div> */}
+
+                <div className="gameSummary">
+                  <h2>Summary:</h2>
+                  <p>{game.summary}</p>
+                </div>
+
+                
+              </div>
             </div>
-          ))};
         </div>
-
-        <p>{games.genre} </p>
-        <p>{games.platfrom} </p>
-        <p>{games.gameDeveloper} </p>
-        <p>{games.releaseDate} </p>
-        <p>{games.score} </p>
-        <p>{games.summary} </p>
-        <div className="gameBasicInfo"></div>
-
-        <div className="gameDescription">
-          <div className="gameImg"></div>
-          <div className="scoreAndSummary">
-            <div className="gameScore"></div>
-            <div className="gameSummary"></div>
-          </div>
-
-          <div className="UserScore"></div>
-        </div>
-
-        <div className="gameTailer"></div>
-
-        <div className="GameReviews">
-          <div className="criticReviews"></div>
-          <div className="userReviews"></div>
-        </div>
-
-        <div className="seeRealtedGames"></div>
       </div>
-
-      <div className="sideBar"></div>
     </>
   );
 };

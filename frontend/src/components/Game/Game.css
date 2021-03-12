@@ -1,0 +1,63 @@
+.gameWrapper2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:350px;
+}
+
+.gameContainer2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.gameBasicInfo {
+   margin:1em;
+} 
+
+.titleAndPlatform2{
+    display:flex;
+    flex-direction: column;
+    gap: 2em;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.titleAndPlatform2 h1 {
+    font-size: 22px;
+    margin-bottom: -1.5em;
+} 
+.titleAndPlatform2 h2 {
+    color: var(--blueAccent);
+}
+
+.gameData2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 2em;
+}
+
+.thiccc {
+    font-size: 18px;
+    font-weight: 600;
+}
+.platformAndScore {
+    display:flex;
+    gap: 2em;
+}
+.gameScore2 {
+    background-color: var(--blueAccent);
+    border-radius: 100%;
+    padding:0.3em;
+    margin:0 0.25em;
+}
+
+.gameSummary {
+    margin-top: 2em;
+}
+
+.gameData img {
+    border-radius: 1em;
+}

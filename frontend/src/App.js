@@ -4,9 +4,10 @@ import EditorPicks from "./components/editor-picks/EditorPicks";
 import TopGames from "./components/top-games/TopGames";
 import PlatformPage from "./components/platforms/PlatformPage.js";
 import Navbar from "./components/navbar/navbar.js";
-import Adverts from "./components/adverts/Adverts.js";
+import Adverts from "./components/Adverts/Adverts.js";
 import Platforms from "./components/platforms/Platforms.js";
 import Game from "./components/Game/Game.js";
+import Games from "./components/Games/Games.js";
 import Login from "./components/login/Login";
 import Footer from "./components/footer/Footer";
 import "font-awesome/css/font-awesome.min.css";
@@ -41,7 +42,7 @@ function App() {
           <Route path="/about">
             <About />
           </Route>
-          <Route path="/game">
+          <Route path="/games">
             <GameLib />
           </Route>
         </Switch>
@@ -53,9 +54,15 @@ function App() {
 function Home() {
   return (
     <div className="App">
+
+      <Game _id="604aabd57be61a6696af8b23" />
+      {/* <Game id="604aaa937be61a6696af8b1f" /> 
+      <Game id="604aa9987be61a6696af8b1a" /> 
+      <Game id="604aaa6b7be61a6696af8b1e" /> */}
+
       <EditorPicks />
 
-      {/*  <Game id="604a3dc57f5b873069486cb5" /> */}
+     
 
       <div className="mainArea">
         <div className="mainBar">
@@ -67,6 +74,9 @@ function Home() {
           <Adverts />
         </div>
       </div>
+
+      <Games />
+
       <Footer />
     </div>
   );
