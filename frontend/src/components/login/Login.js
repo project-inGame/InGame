@@ -7,7 +7,7 @@ const Login = () => {
             <h3 id="emailBar">Email&nbsp;<input className="eBar" type="text" placeholder="Email..."></input></h3>
             <h3 id="passBar">Password&nbsp;<input className="pBar" type="password" placeholder="Password"></input></h3>
             <button className="sBtn">Sign In</button>&nbsp;
-            <button className="signUpBtn">Sign Up</button>&nbsp;
+            <a className="signUpBtn" href="/signup">Sign Up</a>&nbsp;
         </div>
     )
 }
