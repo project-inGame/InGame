@@ -54,9 +54,9 @@ function App() {
 function Home() {
   return (
     <div className="App">
-
-      <Game _id="604aabd57be61a6696af8b23" />
-      {/* <Game id="604aaa937be61a6696af8b1f" /> 
+      
+      {/* <Game id="604aabd57be61a6696af8b23" />
+      <Game id="604aaa937be61a6696af8b1f" /> 
       <Game id="604aa9987be61a6696af8b1a" /> 
       <Game id="604aaa6b7be61a6696af8b1e" /> */}
 

@@ -8,13 +8,13 @@ const Game = (props) => {
   useEffect(() => {
     const getter = async () => {
       const response = await fetch(
-        `http://localhost:5000/games/{props._id}`
+        `http://localhost:5000/games/${props.id}`
       );
       const data = await response.json();
       setGame(data);
     };
     getter();
-  }, [props._id]);
+  }, [props.id]);
 
   return (
     <>
