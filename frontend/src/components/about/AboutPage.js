@@ -10,7 +10,6 @@ const AboutPage = () => {
     <p>
       Created by <a href="https://github.com/Riley142">Riley</a><a href="https://github.com/mafromist">Muge</a><a href="https://github.com/JoeFoster-cn">Joe</a>and<a href="https://github.com/phiddle">Phil</a>
       {" "}
-      {" "}
     </p>
   </div>
   )
