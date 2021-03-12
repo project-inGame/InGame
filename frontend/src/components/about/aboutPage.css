@@ -1,1 +1,15 @@
+body {
+    text-align: center;
+}
 
+#logo {
+    padding-right: 11%;
+}
+
+#blurb1 {
+    font-size: 20px;
+}
+
+#blurb2{
+    font-size: 50px;
+}
